@@ -1,0 +1,121 @@
+//***vdoing主题-样式变量（你可以修改这些变量值以覆盖主题使用的样式变量）***//
+
+// 以下注释的变量仅供参考，主题使用的最新变量请查看：https://github.com/pirunxi/vuepress-theme-vdoing/blob/master/theme-vdoing/styles/palette.styl
+
+// // 颜色
+
+// $bannerTextColor = #fff // 首页banner区(博客标题)文本颜色
+// $accentColor = #11A8CD // 主题色
+// $activeColor = #ff5722
+// $arrowBgColor = #ccc
+
+// // 布局
+// $navbarHeight = 3.6rem
+// $sidebarWidth = 18rem
+// $contentWidth = 860px
+// $homePageWidth = 1100px
+// $rightMenuWidth = 230px // 右侧菜单
+
+// // 代码块
+// $lineNumbersWrapperWidth = 2.5rem
+
+// // 浅色模式
+// .theme-mode-light
+//   --bodyBg: #f4f4f4
+//   --mainBg: rgba(255,255,255,1)
+//   --sidebarBg: rgba(255,255,255,.8)
+//   --blurBg: rgba(255,255,255,.9)
+//   --textColor: #004050
+//   --textLightenColor: #0085AD
+//   --borderColor: rgba(0,0,0,.15)
+//   // 代码块浅色主题
+//   --codeBg: #f6f6f6
+//   --codeColor: #525252
+//   codeThemeLight()
+//   // // 代码块深色主题
+//   // --codeBg: #252526
+//   // --codeColor: #fff
+//   // codeThemeDark()
+
+// // 深色模式
+// .theme-mode-dark
+//   --bodyBg: rgb(39,39,43)
+//   --mainBg: rgba(30,30,34,1)
+//   --sidebarBg: rgba(30,30,34,.8)
+//   --blurBg: rgba(30,30,34,.8)
+//   --textColor: rgb(140,140,150)
+//   --textLightenColor: #0085AD
+//   --borderColor: #2C2C3A
+//   --codeBg: #252526
+//   --codeColor: #fff
+//   codeThemeDark()
+
+// // 阅读模式
+// .theme-mode-read
+//   --bodyBg: rgb(240,240,208)
+//   --mainBg: rgba(245,245,213,1)
+//   --sidebarBg: rgba(245,245,213,.8)
+//   --blurBg: rgba(245,245,213,.9)
+//   --textColor: #004050
+//   --textLightenColor: #0085AD
+//   --borderColor: rgba(0,0,0,.15)
+//   --codeBg: #282c34
+//   --codeColor: #fff
+//   codeThemeDark()
+
+
+.theme-mode-light
+  --bodyBg: #f4f4f4
+  --mainBg: rgba(255,255,255,1)
+  --sidebarBg: rgba(255,255,255,.8)
+  --blurBg: rgba(255,255,255,.9)
+  --customBlockBg: rgba(255,255,255,.9)
+  --textColor: #00323c
+  --textLightenColor: #0085AD
+  --borderColor: rgba(0,0,0,.15)
+  // 代码块浅色主题
+  //--codeBg: #f6f8fa
+  //--codeColor: #24292e
+  //codeThemeLight()
+  // 行高亮颜色，和代码块浅色主题一起使用，一起注释
+  //div[class*="language-"]
+  //  .highlight-lines
+  //    .highlighted
+  //      background-color rgba(200,200,200,.4)
+  //  &.line-numbers-mode
+  //    .highlight-lines .highlighted
+  //      &:before
+  //        background-color rgba(200,200,200,.4)
+  // 代码块深色主题
+  --codeBg: #282C34
+  --codeColor: #D4D4D4
+  codeThemeDark()
+  // 行高亮颜色，和代码块深色主题一起使用，一起注释
+  div[class*="language-"]
+    .highlight-lines
+      .highlighted
+        background-color rgba(0,0,0,.66)
+    &.line-numbers-mode
+      .highlight-lines .highlighted
+        &:before
+          background-color rgba(0,0,0,.66)
+  div[class*="language-"].line-numbers-mode::after  // 代码块的行数和内容分割线颜色
+    border-right 1px solid rgba(0, 0, 0, 0.66)
+
+.sidebar>.sidebar-links>li>a.sidebar-link {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.sidebar>.sidebar-links>li>section>.sidebar-heading {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.sidebar > .sidebar-links > li:not(:first-child) {
+    margin-top: 0.5rem;
+}
+.sidebar > .sidebar-links {
+    padding-top: 5.5rem;
+    padding-botton: 5.5rem;
+}
