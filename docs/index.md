@@ -3,7 +3,7 @@ home: true
 title: FCG 主页
 # heroImage: /img/web.png
 heroText: Focus Creative Games
-tagline: 专注于贡献游戏行业的深度技术解决方案，致力于让游戏开发变得简单、可靠!
+tagline: 专注于创造游戏行业的深度技术解决方案，致力于让游戏开发变得更简单!
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -16,7 +16,7 @@ features: # 可选的
     link: /luban/
     # imgUrl: /luban_logo.png
   - title: Huatuo
-    details: 是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案
+    details: 一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案
     # imgUrl: /huatuo_logo.png
     link: /huatuo/
   - title: ZhugeDB
