@@ -241,7 +241,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // },
           {
             title: '通过百度搜索本站的',
-            frontUrl: 'https://www.baidu.com/s?wd=site%3focus-creative-games.github.io%20',
+            frontUrl: 'https://www.baidu.com/s?wd=site%3Afocus-creative-games.github.io%20',
           },
         ],
       }
