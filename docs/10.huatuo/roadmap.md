@@ -19,11 +19,9 @@ author:
 
 huatuo虽然与il2cpp相关，但绝大多数核心代码独立于il2cpp，很容易移植（预计一个月）到其他不支持AOT+Interpreter的CLR平台。无论unity如何版本变迁，哪怕废弃了il2cpp改用.net 6+，huatuo会持续跟进，稳定地提供跨平台的CLR热更新服务，直至某天.net官方直接支持AOT+Interpreter，则huatuo完成其历史使命。
 
-- 持续修复bug，在Win平台能正常运行一个中大型游戏 (2022.4)
 - 持续跟进unity的版本更新，支持更多的unity版本。查看[现在支持的Unity版本](support_versions.md) (2022.4)
 - 推进Android与ios的全平台测试 (2022.5)
 - 支持 hotfix AOT部分的bug (2022.6)
-- 除去大多数普通AOT泛型类限制 (2022.6)
 - 支持增量式gc。 (2022.7)
 - 指令优化，编译后指令数减少到原来1/4-1/2，基础指令和大多数对象模型指令有100%-300%的性能提升。 (2022.7 出预览版本)
 - 支持 extern函数 (2022.7)
