@@ -3,7 +3,7 @@ home: true
 title: FCG 主页
 # heroImage: /img/web.png
 heroText: Focus Creative Games
-tagline: 专注于创造游戏行业的深度技术解决方案，致力于让游戏开发变得更简单!
+tagline: 提供游戏行业的深度技术解决方案，让游戏开发者专注于做有创造力并有趣的游戏!
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
@@ -12,7 +12,7 @@ pageClass: vdoing-index-class
 
 features: # 可选的
   - title: Luban
-    details: 一个极佳的游戏配置解决方案。Luban可以处理大多数配置格式之间的转换
+    details: 强大成熟的游戏配置解决方案，彻底解决中大型商业游戏项目的配置工作流痛点
     link: /luban/
     # imgUrl: /luban_logo.png
   - title: Huatuo
@@ -20,7 +20,7 @@ features: # 可选的
     # imgUrl: /huatuo_logo.png
     link: /huatuo/
   - title: ZhugeDB
-    details: 以游戏服务器系统功能高性能无状态化为核心设计目标，提供高性能的分布式内嵌对象数据库，和完整事务支持解决方案
+    details: 高性能、高并发、高可用的现代分布式内嵌对象数据库，提供接近单机性能的分布式ACID事务和实时增量持久化支持，游戏系统功能服务分布式、高性能、无状态化的解决方案
     link: https://github.com/focus-creative-games/zhugedb
     # imgUrl: /huatuo_logo.png
 postList: none
@@ -35,10 +35,10 @@ hideRightBar: true
   <IndexBigImg />
 </ClientOnly>
 
-
-
 ## 感谢广大朋友慷慨捐赠和对Huatuo的热心支持，并特别鸣谢下面三位朋友
+
 ::: cardList
+
 ```yaml
 - name: Misaka Mikoto
   desc: 感谢为热更脚本挂载提供的代码，解决了热更挂载脚本的重大问题
@@ -59,4 +59,5 @@ hideRightBar: true
   bgColor: '#718971'
   textColor: '#fff'
 ```
+
 :::
