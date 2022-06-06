@@ -16,11 +16,11 @@ features: # 可选的
     link: /luban/
     # imgUrl: /luban_logo.png
   - title: Huatuo
-    details: 一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案
+    details: 特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案
     # imgUrl: /huatuo_logo.png
     link: /huatuo/
   - title: ZhugeDB
-    details: 高性能、高并发、高可用的现代分布式内嵌对象数据库，提供接近单机性能的分布式ACID事务和实时增量持久化支持，游戏系统功能服务分布式、高性能、无状态化的解决方案
+    details: 高性能、高并发、高可靠的现代分布式内嵌对象数据库，提供接近单机性能的分布式ACID事务和实时增量持久化支持，游戏系统功能服务高性能无状态化的解决方案
     link: https://github.com/focus-creative-games/zhugedb
     # imgUrl: /huatuo_logo.png
 postList: none
