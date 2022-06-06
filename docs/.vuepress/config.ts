@@ -30,10 +30,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/huatuo/',
         items:[
           { text: '关于huatuo', link: '/huatuo/index/'},
+          { text: '支持Unity版本', link: '/huatuo/support_versions/'},
           { text: '快速开始', link: '/huatuo/start_up/'},
           { text: '性能与兼容性', link: '/huatuo/performance/compatible/'},
           { text: '原理与特性', link: '/huatuo/performance/limit/'},
-          { text: '支持Unity版本', link: '/huatuo/support_versions/'},
           { text: 'Huatuo工具集', link: '/huatuo/huatuo_upm/'},
           { text: 'FAQ', link: '/huatuo/faq/'},
           { text: '常见错误处理', link: '/huatuo/common_errors/'},
