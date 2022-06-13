@@ -135,7 +135,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'focus-creative-games', // 博客版权信息，支持a标签或换行标签</br>
+        'focus-creative-games | <a href="http://tuyoo.com/index" target="_blank">在线途游</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
