@@ -34,7 +34,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '快速开始', link: '/huatuo/start_up/'},
           { text: '性能与兼容性', link: '/huatuo/performance/compatible/'},
           { text: '原理与特性', link: '/huatuo/performance/limit/'},
-          { text: 'Huatuo工具集', link: '/huatuo/huatuo_upm/'},
+          //{ text: 'Huatuo工具集', link: '/huatuo/huatuo_upm/'},
           { text: 'FAQ', link: '/huatuo/faq/'},
           { text: '常见错误处理', link: '/huatuo/common_errors/'},
         ]
@@ -52,6 +52,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       { text: '关于', link: '/about/' },
+      //{ text: '服务与合作', link: '/support/' },
       { text: '知乎', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
