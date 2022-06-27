@@ -37,7 +37,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           //{ text: 'Huatuo工具集', link: '/huatuo/huatuo_upm/'},
           { text: 'FAQ', link: '/huatuo/faq/'},
           { text: '常见错误处理', link: '/huatuo/common_errors/'},
-          { text: '标准问题解决流程', link:'/huatuo/Problem_solveing/'}
+          { text: '标准问题解决流程', link:'/huatuo/Problem_solveing/'},
+          { text:'第三方项目推荐', link:'/huatuo/recommended-tools/'},
         ]
       },
       {
