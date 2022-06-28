@@ -53,6 +53,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Luban工具', link: '/luban/tools/' },
         ],
       },
+      { text:'实习招聘', link: '/join/'},
       { text: '关于', link: '/about/' },
       //{ text: '服务与合作', link: '/support/' },
       { text: '知乎', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
