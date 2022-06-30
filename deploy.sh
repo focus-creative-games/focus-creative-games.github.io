@@ -17,9 +17,9 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:focus-creative-games/focus-creative-games.github.io.git
 else
   msg='[deploy] auto from github actions'
-  githubUrl=https://ShuaiGao:${GITHUB_TOKEN}@github.com/focus-creative-games/focus-creative-games.github.io.git
-  git config --global user.name "Dongua"
-  git config --global user.email "597449675@qq.com"
+  githubUrl=https://pirunxi:${GITHUB_TOKEN}@github.com/focus-creative-games/focus-creative-games.github.io.git
+  git config --global user.name "pirunxi"
+  git config --global user.email "taojingjian@gmail.com"
 fi
 git init
 git add -A
