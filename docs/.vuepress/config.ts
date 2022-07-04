@@ -75,7 +75,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     bodyBgImg: [
-      'https://tyimage.tuyoo.com/8751a21462/img/flying-seagull.jpg'
     //   '/img/flying-seagull.jpg'
     //   // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
     //   // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
@@ -139,7 +138,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2022, // 博客创建年份
       copyrightInfo:
-        'focus-creative-games | <a href="http://tuyoo.com/index" target="_blank">在线途游</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'focus-creative-games', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
