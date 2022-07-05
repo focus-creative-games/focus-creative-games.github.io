@@ -26,19 +26,19 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       { 
-        text: 'Huatuo文档', 
-        link: '/huatuo/',
+        text: 'HybridCLR文档', 
+        link: '/HybridCLR/',
         items:[
-          { text: '关于huatuo', link: '/huatuo/index/'},
-          { text: '支持Unity版本', link: '/huatuo/support_versions/'},
-          { text: '快速开始', link: '/huatuo/start_up/'},
-          { text: '性能与兼容性', link: '/huatuo/performance/compatible/'},
-          { text: '原理与特性', link: '/huatuo/performance/limit/'},
-          //{ text: 'Huatuo工具集', link: '/huatuo/huatuo_upm/'},
-          { text: 'FAQ', link: '/huatuo/faq/'},
-          { text: '常见错误处理', link: '/huatuo/common_errors/'},
-          { text: '标准问题解决流程', link:'/huatuo/Problem_solveing/'},
-          { text:'第三方项目推荐', link:'/huatuo/recommended-tools/'},
+          { text: '关于HybridCLR', link: '/HybridCLR/index/'},
+          { text: '支持Unity版本', link: '/HybridCLR/support_versions/'},
+          { text: '快速开始', link: '/HybridCLR/start_up/'},
+          { text: '性能与兼容性', link: '/HybridCLR/performance/compatible/'},
+          { text: '原理与特性', link: '/HybridCLR/performance/limit/'},
+          //{ text: 'HybridCLR工具集', link: '/HybridCLR/HybridCLR_upm/'},
+          { text: 'FAQ', link: '/HybridCLR/faq/'},
+          { text: '常见错误处理', link: '/HybridCLR/common_errors/'},
+          { text: '标准问题解决流程', link:'/HybridCLR/Problem_solveing/'},
+          { text:'第三方项目推荐', link:'/HybridCLR/recommended-tools/'},
         ]
       },
       {
@@ -177,7 +177,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       'meta',
       {
         name: 'keywords',
-        content: 'huatuo,luban,热更新,配表,配置,游戏,git,github',
+        content: 'HybridCLR,luban,热更新,配表,配置,游戏,git,github',
       },
     ],
     //['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
