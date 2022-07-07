@@ -27,18 +27,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '首页', link: '/' },
       { 
         text: 'HybridCLR文档', 
-        link: '/HybridCLR/',
+        link: '/hybridclr/',
         items:[
-          { text: '关于HybridCLR', link: '/HybridCLR/index/'},
-          { text: '支持Unity版本', link: '/HybridCLR/support_versions/'},
-          { text: '快速开始', link: '/HybridCLR/start_up/'},
-          { text: '性能与兼容性', link: '/HybridCLR/performance/compatible/'},
-          { text: '原理与特性', link: '/HybridCLR/performance/limit/'},
-          //{ text: 'HybridCLR工具集', link: '/HybridCLR/HybridCLR_upm/'},
-          { text: 'FAQ', link: '/HybridCLR/faq/'},
-          { text: '常见错误处理', link: '/HybridCLR/common_errors/'},
-          { text: '标准问题解决流程', link:'/HybridCLR/Problem_solveing/'},
-          { text:'第三方项目推荐', link:'/HybridCLR/recommended-tools/'},
+          { text: '关于HybridCLR', link: '/hybridclr/index/'},
+          { text: '支持Unity版本', link: '/hybridclr/support_versions/'},
+          { text: '快速开始', link: '/hybridclr/start_up/'},
+          { text: '性能与兼容性', link: '/hybridclr/performance/compatible/'},
+          { text: '原理与特性', link: '/hybridclr/performance/limit/'},
+          { text: 'FAQ', link: '/hybridclr/faq/'},
+          { text: '常见错误处理', link: '/hybridclr/common_errors/'},
+          { text: '标准问题解决流程', link:'/hybridclr/problem_solveing/'},
+          { text:'第三方项目推荐', link:'/hybridclr/recommended-tools/'},
         ]
       },
       {
