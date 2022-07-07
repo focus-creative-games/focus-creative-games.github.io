@@ -20,5 +20,11 @@ yarn install # or npm install
 yarn dev # or npm run dev
 ```
 
+## 本地测试
+
+- 安装 nodejs
+- npm install --force  
+- npm run dev 。 即会在本地 0.0.0.0:8080 上运行一个本地静态网站。
+- 测试页面没问题。直接提交代码即可。由于静态网站生成需要几分钟，过一会后网站才会刷新。
 
 本项目部署于pages分支，通过github Action自动部署。
