@@ -32,11 +32,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '关于HybridCLR', link: '/hybridclr/index/'},
           { text: '支持Unity版本', link: '/hybridclr/support_versions/'},
           { text: '快速开始', link: '/hybridclr/start_up/'},
-          { text: '性能与兼容性', link: '/hybridclr/performance/compatible/'},
+          { text: '性能报告', link: '/hybridclr/benchmark/'},
           { text: '原理与特性', link: '/hybridclr/performance/limit/'},
           { text: 'FAQ', link: '/hybridclr/faq/'},
           { text: '常见错误处理', link: '/hybridclr/common_errors/'},
-          { text: '标准问题解决流程', link:'/hybridclr/problem_solveing/'},
+          { text: '标准问题解决流程', link:'/hybridclr/problem_solving/'},
           { text:'第三方项目推荐', link:'/hybridclr/recommended-tools/'},
         ]
       },
@@ -55,7 +55,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text:'实习招聘', link: '/join/'},
       { text: '关于', link: '/about/' },
       //{ text: '服务与合作', link: '/support/' },
-      { text: '知乎', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
+      { text: '知乎专栏', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -101,7 +101,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: 'walon', // 必需
-      link: 'https://github.com/pirunxi', // 可选的
+      link: 'https://github.com/focus-creative-games', // 可选的
     },
 
     // // 博主信息 (显示在首页侧边栏)
@@ -144,7 +144,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     extendFrontmatter: {
       author: {
         name: 'walon',
-        link: 'https://github.com/pirunxi'
+        link: 'https://github.com/focus-creative-games'
       }
     },
     indexImg: {
