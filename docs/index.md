@@ -35,29 +35,3 @@ hideRightBar: true
   <IndexBigImg />
 </ClientOnly>
 
-## 感谢广大朋友慷慨捐赠和对HybridCLR的热心支持，并特别鸣谢下面三位朋友
-
-::: cardList
-
-```yaml
-- name: Misaka Mikoto
-  desc: 感谢为热更脚本挂载提供的代码，解决了热更挂载脚本的重大问题
-  avatar: https://avatars.githubusercontent.com/u/1246379?v=4
-  link: https://github.com/Misaka-Mikoto-Tech
-  bgColor: '#7fdbc4'
-  textColor: '#A05F2C'
-- name: Don't Worry
-  desc: 感谢在HybridCLR单元测试、性能测试上贡献的代码；鬼斧神工，极具创造力。
-  avatar: https://avatars.githubusercontent.com/u/49626119?v=4
-  link: https://github.com/eelgame
-  bgColor: '#FCDBA0'
-  textColor: '#A05F2C'
-- name: 海浪
-  desc: 感谢海浪参与HybridCLR_upm项目的开发，推动了HybridCLR生态的完善。
-  avatar: https://avatars.githubusercontent.com/u/2163435?v=4
-  link: https://github.com/ldr123
-  bgColor: '#718971'
-  textColor: '#fff'
-```
-
-:::
