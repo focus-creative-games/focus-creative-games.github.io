@@ -35,7 +35,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '性能报告', link: '/hybridclr/benchmark/'},
           { text: '原理与特性', link: '/hybridclr/performance/limit/'},
           { text: 'FAQ', link: '/hybridclr/faq/'},
-          { text: '常见错误处理', link: '/hybridclr/common_errors/'},
+         // { text: '常见错误处理', link: '/hybridclr/common_errors/'},
+         { text: '常见错误处理', link: '/hybridclr/errors/advanced_errors/'},
           { text: '标准问题解决流程', link:'/hybridclr/problem_solving/'},
           { text:'第三方项目推荐', link:'/hybridclr/recommended-tools/'},
         ]
