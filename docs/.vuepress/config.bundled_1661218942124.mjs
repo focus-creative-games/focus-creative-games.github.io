@@ -29,7 +29,7 @@ var config_default = defineConfig4CustomTheme({
           { text: "\u539F\u7406\u4E0E\u7279\u6027", link: "/hybridclr/performance/limit/" },
           { text: "FAQ", link: "/hybridclr/faq/" },
          // { text: "\u5E38\u89C1\u9519\u8BEF\u5904\u7406", link: "/hybridclr/common_errors/" },
-          { text: "\u5E38\u89C1\u9519\u8BEF\u5904\u7406", link: "/hybridclr/errors/advanced_errors/" },
+          { text: "\u5E38\u89C1\u9519\u8BEF\u5904\u7406", link: "/hybridclr/common_errors/" },
           { text: "\u6807\u51C6\u95EE\u9898\u89E3\u51B3\u6D41\u7A0B", link: "/hybridclr/problem_solving/" },
           { text: "\u7B2C\u4E09\u65B9\u9879\u76EE\u63A8\u8350", link: "/hybridclr/recommended-tools/" }
         ]
