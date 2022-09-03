@@ -53,10 +53,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Luban工具', link: '/luban/tools/' },
         ],
       },
-      { text:'实习招聘', link: '/join/'},
-      { text: '关于', link: '/about/' },
+      { text:'社区', link: 'https://forum.focus-creative-games.com/topics'},
+      //{ text:'实习招聘', link: '/join/'},
       //{ text: '服务与合作', link: '/support/' },
       { text: '知乎专栏', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
+      { text: '关于', link: '/about/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
