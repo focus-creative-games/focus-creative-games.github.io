@@ -54,7 +54,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       { text:'社区', link: 'https://forum.focus-creative-games.com/topics'},
-      //{ text:'实习招聘', link: '/join/'},
+      { text:'招聘', link: '/join/'},
       //{ text: '服务与合作', link: '/support/' },
       { text: '知乎专栏', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
       { text: '关于', link: '/about/' },
