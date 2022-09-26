@@ -53,6 +53,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Luban工具', link: '/luban/tools/' },
         ],
       },
+      { text:'商业化支持', link: '/hybridclr/price/'},
       { text:'社区', link: 'https://forum.focus-creative-games.com/topics'},
       { text:'招聘', link: '/join/'},
       //{ text: '服务与合作', link: '/support/' },
