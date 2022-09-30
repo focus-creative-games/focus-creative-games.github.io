@@ -30,7 +30,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/hybridclr/',
         items:[
           { text: '关于HybridCLR', link: '/hybridclr/about/'},
-          { text: '快速开始', link: '/hybridclr/start_up/'},
+          { text: '快速开始', link: '/hybridclr/monobehaviour//'},
           { text: '性能报告', link: '/hybridclr/benchmark/'},
           { text: 'FAQ', link: '/hybridclr/faq/'},
          // { text: '常见错误处理', link: '/hybridclr/common_errors/'},

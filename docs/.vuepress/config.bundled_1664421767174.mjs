@@ -24,7 +24,7 @@ var config_default = defineConfig4CustomTheme({
         items: [
           { text: "\u5173\u4E8EHybridCLR", link: "/hybridclr/index/" },
           { text: "\u652F\u6301Unity\u7248\u672C", link: "/hybridclr/support_versions/" },
-          { text: "\u5FEB\u901F\u5F00\u59CB", link: "/hybridclr/start_up/" },
+          { text: "\u5FEB\u901F\u5F00\u59CB", link: "/hybridclr/monobehaviour//" },
           { text: "\u6027\u80FD\u62A5\u544A", link: "/hybridclr/benchmark/" },
           { text: "FAQ", link: "/hybridclr/faq/" },
           { text: "\u5E38\u89C1\u9519\u8BEF\u5904\u7406", link: "/hybridclr/common_errors/" },
