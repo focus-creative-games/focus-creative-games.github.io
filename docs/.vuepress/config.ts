@@ -27,10 +27,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '首页', link: '/' },
       { 
         text: 'HybridCLR文档', 
-        link: '/hybridclr/',
+        link: '/hybridclr/about/',
         items:[
           { text: '关于HybridCLR', link: '/hybridclr/about/'},
-          { text: '快速开始', link: '/hybridclr/monobehaviour//'},
+          { text: '快速开始', link: '/hybridclr/monobehaviour/'},
           { text: '性能报告', link: '/hybridclr/benchmark/'},
           { text: 'FAQ', link: '/hybridclr/faq/'},
          // { text: '常见错误处理', link: '/hybridclr/common_errors/'},
@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: 'Luban文档',
-        link: '/luban/',
+        link: '/luban/index/',
         items: [
           { text: '关于luban', link: '/luban/index/' },
           { text: '快速开始', link: '/luban/start_up/' },
