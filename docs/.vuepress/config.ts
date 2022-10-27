@@ -85,15 +85,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Home', link: '/en/' },
           { 
             text: 'HybridCLR', 
-            link: '/en/hybridclr/index/',
+            // link: '/en/hybridclr/index/', //注释原因：vdoing这里有url拼接bug，会使得英文页面跳转回中文页面
             items:[
-              { text: '关于HybridCLR', link: '/en/hybridclr/about/'},
-              { text: '快速开始', link: '/en/hybridclr/monobehaviour/'},
-              { text: '性能报告', link: '/en/hybridclr/benchmark/'},
+              { text: 'About', link: '/en/hybridclr/about/'},
+              { text: 'Startup', link: '/en/hybridclr/monobehaviour/'},
+              { text: 'Benchmark', link: '/en/hybridclr/benchmark/'},
               { text: 'FAQ', link: '/en/hybridclr/faq/'},
             // { text: '常见错误处理', link: '/en/hybridclr/common_errors/'},
-            { text: '常见错误处理', link: '/en/hybridclr/common_errors/'},
-              { text: 'bug反馈', link:'/en/hybridclr/bug_reporter/'},
+            { text: 'Common mistakes', link: '/en/hybridclr/common_errors/'},
+              { text: 'Report Bugs', link:'/en/hybridclr/bug_reporter/'},
             ]
           },
           {
