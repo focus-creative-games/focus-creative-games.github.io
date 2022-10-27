@@ -10,61 +10,119 @@ import htmlModules from './config/htmlModules' // 自定义插入的html块
 export default defineConfig4CustomTheme<VdoingThemeConfig>({
   theme: 'vdoing', // 使用npm主题包
   // theme: resolve(__dirname, '../../vdoing'), // 使用本地主题包
-
+  //多语言
   locales: {
     '/': {
       lang: 'zh-CN',
       title: "Focus Creative Games",
-      description: '标题',
+      description: 'Focus Creative Games是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
+    },
+    '/en/':{
+      lang: 'en-US',
+      title: "Focus Creative Games",
+      description: 'Focus Creative Games是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
-    // 导航配置
-    nav: [
-      { text: '首页', link: '/' },
-      { 
-        text: 'HybridCLR文档', 
-        link: '/hybridclr/index/',
-        items:[
-          { text: '关于HybridCLR', link: '/hybridclr/about/'},
-          { text: '快速开始', link: '/hybridclr/monobehaviour/'},
-          { text: '性能报告', link: '/hybridclr/benchmark/'},
-          { text: 'FAQ', link: '/hybridclr/faq/'},
-         // { text: '常见错误处理', link: '/hybridclr/common_errors/'},
-         { text: '常见错误处理', link: '/hybridclr/common_errors/'},
-          { text: 'bug反馈', link:'/hybridclr/bug_reporter/'},
-        ]
-      },
-      {
-        text: 'Luban文档',
-        link: '/luban/index/',
-        items: [
-          { text: '关于luban', link: '/luban/about/' },
-          { text: '快速开始', link: '/luban/start_up/' },
-          { text: '完整特性', link: '/luban/command_tools/'},
-          { text: '多数据源', link: '/luban/data_source/' },
-          { text: '高级特性', link: '/luban/advanced/validator/' },
-          { text: 'Luban工具', link: '/luban/tools/' },
-        ],
-      },
-      { text:'商业化支持', link: '/hybridclr/price/'},
-      { text:'社区', link: 'https://forum.focus-creative-games.com/topics'},
-      { text:'招聘', link: '/join/'},
-      //{ text: '服务与合作', link: '/support/' },
-      { text: '知乎专栏', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
-      { text: '关于', link: '/about/' },
-    ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    docsDir: 'docs', // 编辑的文件夹
     logo: '/img/logo.png', // 导航栏logo
     repo: 'focus-creative-games', // 导航栏右侧生成Github链接
-    searchMaxSuggestions: 10, // 搜索结果显示最大数
-    lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
-    docsDir: 'docs', // 编辑的文件夹
-    editLinks: true, // 启用编辑
-    editLinkText: '编辑',
+    //多语言
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: '简体中文',
+        // 导航配置
+        nav: [
+          { text: '首页', link: '/' },
+          { 
+            text: 'HybridCLR文档', 
+            link: '/hybridclr/index/',
+            items:[
+              { text: '关于HybridCLR', link: '/hybridclr/about/'},
+              { text: '快速开始', link: '/hybridclr/monobehaviour/'},
+              { text: '性能报告', link: '/hybridclr/benchmark/'},
+              { text: 'FAQ', link: '/hybridclr/faq/'},
+            // { text: '常见错误处理', link: '/hybridclr/common_errors/'},
+            { text: '常见错误处理', link: '/hybridclr/common_errors/'},
+              { text: 'bug反馈', link:'/hybridclr/bug_reporter/'},
+            ]
+          },
+          {
+            text: 'Luban文档',
+            link: '/luban/index/',
+            items: [
+              { text: '关于luban', link: '/luban/about/' },
+              { text: '快速开始', link: '/luban/start_up/' },
+              { text: '完整特性', link: '/luban/command_tools/'},
+              { text: '多数据源', link: '/luban/data_source/' },
+              { text: '高级特性', link: '/luban/advanced/validator/' },
+              { text: 'Luban工具', link: '/luban/tools/' },
+            ],
+          },
+          { text:'商业化支持', link: '/hybridclr/price/'},
+          { text:'社区', link: 'https://forum.focus-creative-games.com/topics'},
+          { text:'招聘', link: '/join/'},
+          //{ text: '服务与合作', link: '/support/' },
+          { text: '知乎专栏', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
+          { text: '关于', link: '/about/' },
+        ],
+        sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+        lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+        editLinkText: '编辑',
+        searchMaxSuggestions: 10, // 搜索结果显示最大数
+        editLinks: true, // 启用编辑
+      },
+
+      '/en/': {
+        selectText: '切换语言',
+        label: 'English',
+        // 导航配置
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { 
+            text: 'HybridCLR', 
+            link: '/en/hybridclr/index/',
+            items:[
+              { text: '关于HybridCLR', link: '/en/hybridclr/about/'},
+              { text: '快速开始', link: '/en/hybridclr/monobehaviour/'},
+              { text: '性能报告', link: '/en/hybridclr/benchmark/'},
+              { text: 'FAQ', link: '/en/hybridclr/faq/'},
+            // { text: '常见错误处理', link: '/en/hybridclr/common_errors/'},
+            { text: '常见错误处理', link: '/en/hybridclr/common_errors/'},
+              { text: 'bug反馈', link:'/en/hybridclr/bug_reporter/'},
+            ]
+          },
+          {
+            text: 'Luban',
+            link: '/en/luban/index/',
+            items: [
+              { text: '关于luban', link: '/en/luban/about/' },
+              { text: '快速开始', link: '/en/luban/start_up/' },
+              { text: '完整特性', link: '/en/luban/command_tools/'},
+              { text: '多数据源', link: '/en/luban/data_source/' },
+              { text: '高级特性', link: '/en/luban/advanced/validator/' },
+              { text: 'Luban工具', link: '/en/luban/tools/' },
+            ],
+          },
+          { text:'Commercial', link: '/en/hybridclr/price/'},
+          { text:'Community', link: 'https://forum.focus-creative-games.com/topics'},
+          { text:'Jobs', link: '/en/join/'},
+          //{ text: '服务与合作', link: '/support/' },
+          { text: 'Zhihu', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
+          { text: 'About', link: '/en/about/' },
+        ],
+        sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+        lastUpdated: 'Last Updated', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+        editLinkText: 'Edit',
+        searchMaxSuggestions: 10, // 搜索结果显示最大数
+        editLinks: true, // 启用编辑
+      },
+    },
+    
 
     //*** 以下是Vdoing主题相关配置，文档：https://doc.walon.com/pages/a20ce8/ ***//
 
