@@ -88,11 +88,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             // link: '/en/hybridclr/index/', //注释原因：vdoing这里有url拼接bug，会使得英文页面跳转回中文页面
             items:[
               { text: 'About', link: '/en/hybridclr/about/'},
-              { text: 'Startup', link: '/en/hybridclr/monobehaviour/'},
+              { text: 'Get Started', link: '/en/hybridclr/monobehaviour/'},
               { text: 'Benchmark', link: '/en/hybridclr/benchmark/'},
               { text: 'FAQ', link: '/en/hybridclr/faq/'},
             // { text: '常见错误处理', link: '/en/hybridclr/common_errors/'},
-            { text: 'Common mistakes', link: '/en/hybridclr/common_errors/'},
+            { text: 'Common Mistakes', link: '/en/hybridclr/common_errors/'},
               { text: 'Report Bugs', link:'/en/hybridclr/bug_reporter/'},
             ]
           },
@@ -108,8 +108,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'Luban工具', link: '/en/luban/tools/' },
             ],
           },
-          { text:'Commercial', link: '/en/hybridclr/price/'},
-          { text:'Community', link: 'https://forum.focus-creative-games.com/topics'},
+          { text:'Service', link: '/en/hybridclr/price/'},
+          { text:'Forum', link: 'https://forum.focus-creative-games.com/topics'},
           { text:'Jobs', link: '/en/join/'},
           //{ text: '服务与合作', link: '/support/' },
           { text: 'Zhihu', link: 'https://www.zhihu.com/column/c_1489549396035870720' },
