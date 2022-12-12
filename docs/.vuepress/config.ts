@@ -64,6 +64,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           { text:'商业化支持', link: '/hybridclr/price/'},
+          { text: '论坛', link: 'https://forum.focus-creative-games.com/topics' },
           { text:'招聘', link: '/join/'},
           { text: '关于', link: '/about/' },
         ],
