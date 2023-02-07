@@ -1,10 +1,10 @@
 ---
 title: 开发事纪
 date: 2022-05-25 23:17:56
-permalink: /hybridclr/development_story/
+permalink: /hybridclr/changelog/
 categories:
   - HybridCLR
-  - development_story
+  - changelog
 tags:
   - 
 author: 
@@ -14,6 +14,9 @@ author:
 
 # 开发事纪
 
+- 2023.2.4 2021版本WebGL平台支持资源上挂载脚本
+- 2023.2.4 完成DHE最终版本
+- 2023.2.3 发布2.0版本
 - 2023.1.14 更新到Unity最新LTS版本 2020.3.43及2021.3.16
 - 2022.12.08 支持netstandard 2.0
 - 2022.11.28 正式启动多分支管理hybridclr和il2cpp_plus，同时创建1.0正式版本分支
