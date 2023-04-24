@@ -72,7 +72,7 @@ var config_default = defineConfig4CustomTheme({
         {
           iconClass: "icon-youjian",
           title: "\u53D1\u90AE\u4EF6",
-          link: "mailto:walon@focus-creative-games.com"
+          link: "mailto:walon@code-philosophy.com"
         },
         {
           iconClass: "icon-github",

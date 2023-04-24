@@ -45,7 +45,7 @@ var config_default = defineConfig4CustomTheme({
           { text: "Luban\u5DE5\u5177", link: "/luban/tools/" }
         ]
       },
-      { text: "\u793E\u533A", link: "https://forum.focus-creative-games.com/topics" },
+      { text: "\u793E\u533A", link: "https://forum.code-philosophy.com/topics" },
       { text: "\u77E5\u4E4E\u4E13\u680F", link: "https://www.zhihu.com/column/c_1489549396035870720" },
       { text: "\u5173\u4E8E", link: "/about/" }
     ],
@@ -71,7 +71,7 @@ var config_default = defineConfig4CustomTheme({
         {
           iconClass: "icon-youjian",
           title: "\u53D1\u90AE\u4EF6",
-          link: "mailto:walon@focus-creative-games.com"
+          link: "mailto:walon@code-philosophy.com"
         },
         {
           iconClass: "icon-github",

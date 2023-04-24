@@ -172,7 +172,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:hybridclr@focus-creative-games.com',
+          link: 'mailto:hybridclr@code-philosophy.com',
         },
         {
           iconClass: 'icon-github',
