@@ -11,7 +11,7 @@ var config_default = defineConfig4CustomTheme({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Focus Creative Games",
+      title: "Code Philosophy",
       description: "\u6807\u9898"
     }
   },

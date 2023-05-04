@@ -1,8 +1,8 @@
 ---
 home: true
-title: FCG 主页
+title: Code Philosophy 主页
 # heroImage: /img/web.png
-heroText: Focus Creative Games
+heroText: Code Philosophy(代码哲学)
 tagline: 提供游戏行业的深度技术解决方案，让游戏开发者专注于做有创造力并有趣的游戏!
 # actionText: 立刻进入 →
 # actionLink: /web/

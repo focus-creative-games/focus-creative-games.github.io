@@ -1,5 +1,5 @@
 {
-  "name": "fcg_web",
+  "name": "code-philosophy-web",
   "version": "1.0.0",
   "scripts": {
     "dev": "vuepress dev docs",

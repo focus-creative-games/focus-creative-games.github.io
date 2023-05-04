@@ -1,7 +1,6 @@
 import { resolve } from 'path'
 import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config'
 import { VdoingThemeConfig } from 'vuepress-theme-vdoing/types'
-import { svgIconPlugin } from '@goy/vuepress-plugin-svg-icons'
 import dayjs from 'dayjs'
 import baiduCode from './config/baiduCode' // 百度统计hm码
 import htmlModules from './config/htmlModules' // 自定义插入的html块
@@ -14,13 +13,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Focus Creative Games",
-      description: 'Focus Creative Games是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
+      title: "Code Philosophy",
+      description: 'Code Philosophy是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
     },
     '/en/':{
       lang: 'en-US',
-      title: "Focus Creative Games",
-      description: 'Focus Creative Games是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
+      title: "Code Philosophy",
+      description: 'Code Philosophy是一个业内领先的专注于提供游戏行业深度技术解决方案的创新型公司。',
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）

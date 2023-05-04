@@ -1,7 +1,7 @@
 ---
 home: true
 title: FCG home
-heroText: Focus Creative Games
+heroText: Code Philosophy
 tagline: Provide in-depth technical solutions in the game industry, allowing game developers to focus on making creative and interesting games!
 pageClass: vdoing-index-class
 features: 
@@ -26,7 +26,7 @@ categories:
 tags: 
   - null
 author: 
-  name: walon
+  name: Code Philosophy
   link: https://github.com/focus-creative-games
 ---
 
