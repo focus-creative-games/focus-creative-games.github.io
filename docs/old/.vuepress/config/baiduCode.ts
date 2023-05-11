@@ -1,1 +1,0 @@
-export default '850a13c9790472ee8fb3d72e608f7283'
